@@ -22,28 +22,28 @@ Another advantage to use this plugin is to be capable of using JSON documents fo
 In your project/Build.scala:
 
 ```scala
-// only for Play 2.3.x
+// only for Play 2.4.x
 libraryDependencies ++= Seq(
-  "org.reactivemongo" %% "play2-reactivemongo" % "0.10.5.0.akka23"
+  "org.reactivemongo" %% "play2-reactivemongo" % "0.11.0.play24"
 )
 ```
 
-If you are looking for a stable version for Play 2.2, please consider using the 0.10.5.0.akka22 version:
+If you are looking for a stable version for Play 2.3, please consider using the 0.11.0.play23 version:
 
 ```scala
-// Only for Play 2.2.x
+// Only for Play 2.3.x
 libraryDependencies ++= Seq(
-  "org.reactivemongo" %% "play2-reactivemongo" % "0.10.5.0.akka22"
+  "org.reactivemongo" %% "play2-reactivemongo" % "0.11.0.play23-M2"
 )
 ```
 
-If you want to use the latest snapshot, add the following instead (only for play > 2.3):
+If you want to use the latest snapshot, add the following instead (only for play > 2.4):
 
 ```scala
 resolvers += "Sonatype Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots/"
 
 libraryDependencies ++= Seq(
-  "org.reactivemongo" %% "play2-reactivemongo" % "0.11.0-SNAPSHOT"
+  "org.reactivemongo" %% "play2-reactivemongo" % "0.12.0-SNAPSHOT"
 )
 ```
 
